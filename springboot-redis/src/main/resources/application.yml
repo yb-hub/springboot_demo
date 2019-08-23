@@ -1,0 +1,21 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/springboot_demo?characterEncoding=UTF-8
+    data-username: root
+    data-password: usx_2015
+#  redis:
+#    #redisÊý¾Ý¿âµØÖ·
+#    host: localhost
+#    port: 6379
+#    password: ""
+#    timeout: 1000
+
+server:
+  port: 8001
+logging:
+  level:
+    yb.demo.springbootcache: debug
+
+debug: true
+
+
