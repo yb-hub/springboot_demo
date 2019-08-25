@@ -12,8 +12,10 @@ public class SpringbootRedisApplication {
 
     public static void main(String[] args) {
         ConfigurableApplicationContext context = SpringApplication.run(SpringbootRedisApplication.class, args);
-        CacheManager bean = context.getBean(CacheManager.class);
-        System.out.println(bean);
+        Object simpleCacheConfiguration = context.getBeanFactory().getSingleton("SimpleCacheConfiguration");
+        Object redisCacheConfiguration = context.getBeanFactory().getSingleton("RedisCacheConfiguration");
+        System.out.println(simpleCacheConfiguration);
+        System.out.println(redisCacheConfiguration);
     }
 
 }
