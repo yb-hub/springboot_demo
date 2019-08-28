@@ -12,10 +12,10 @@ public class SpringbootRedisApplication {
 
     public static void main(String[] args) {
         ConfigurableApplicationContext context = SpringApplication.run(SpringbootRedisApplication.class, args);
-        Object simpleCacheConfiguration = context.getBeanFactory().getSingleton("SimpleCacheConfiguration");
-        Object redisCacheConfiguration = context.getBeanFactory().getSingleton("RedisCacheConfiguration");
-        System.out.println(simpleCacheConfiguration);
-        System.out.println(redisCacheConfiguration);
+//        Object simpleCacheConfiguration = context.getBeanFactory().getSingleton("SimpleCacheConfiguration");
+//        Object redisCacheConfiguration = context.getBeanFactory().getSingleton("RedisCacheConfiguration");
+//        System.out.println(simpleCacheConfiguration);
+//        System.out.println(redisCacheConfiguration);
     }
 
 }
