@@ -9,12 +9,14 @@
         <module name="springboot-cache" />
         <module name="springboot-rabbitmq" />
         <module name="springboot-redis" />
+        <module name="springboot-security" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="springboot-cache" target="1.8" />
       <module name="springboot-rabbitmq" target="1.8" />
       <module name="springboot-redis" target="1.8" />
+      <module name="springboot-security" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -22,6 +24,7 @@
       <module name="springboot-cache" options="-parameters" />
       <module name="springboot-rabbitmq" options="-parameters" />
       <module name="springboot-redis" options="-parameters" />
+      <module name="springboot-security" options="-parameters" />
     </option>
   </component>
 </project>
