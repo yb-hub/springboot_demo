@@ -3,7 +3,7 @@ spring:
 #    driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://47.104.158.248:3306/springboot_jpa?charset=utf8mb4&useSSL=false
     username: root
-    password: 123456
+    password: mengfeimysql0510
     # Hikari
     hikari.maximum-pool-size: 20
     hikari.minimum-idle: 5

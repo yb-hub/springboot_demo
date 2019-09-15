@@ -8,6 +8,7 @@
         <option value="$PROJECT_DIR$/springboot-rabbitmq/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-security/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-jpa/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-shiro/pom.xml" />
       </list>
     </option>
   </component>
