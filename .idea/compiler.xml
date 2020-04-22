@@ -9,6 +9,7 @@
         <module name="jwt" />
         <module name="springboot-cache" />
         <module name="springboot-jpa" />
+        <module name="springboot-kafka" />
         <module name="springboot-rabbitmq" />
         <module name="springboot-redis" />
         <module name="springboot-security" />
@@ -19,6 +20,7 @@
       <module name="jwt" target="1.8" />
       <module name="springboot-cache" target="1.8" />
       <module name="springboot-jpa" target="1.8" />
+      <module name="springboot-kafka" target="1.8" />
       <module name="springboot-rabbitmq" target="1.8" />
       <module name="springboot-redis" target="1.8" />
       <module name="springboot-security" target="1.8" />
@@ -30,6 +32,7 @@
       <module name="jwt" options="-parameters" />
       <module name="springboot-cache" options="-parameters" />
       <module name="springboot-jpa" options="-parameters" />
+      <module name="springboot-kafka" options="-parameters" />
       <module name="springboot-rabbitmq" options="-parameters" />
       <module name="springboot-redis" options="-parameters" />
       <module name="springboot-security" options="-parameters" />
